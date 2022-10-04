@@ -1,0 +1,205 @@
+h2 {
+    font-size: 2rem;
+    color: white;
+    font-family: 'Aboreto-bold';
+}
+
+
+/* Title section */
+
+#title {
+    background-color: pink;
+}
+
+.container-fluid {
+    padding: 0% 25% 15%;
+    background-color: pink;
+}
+
+.navbar {
+    padding: 0 0;
+    background-color: pink;
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    color: red;
+    font-size: 30px;
+    padding: 2% 3%;
+    font-family: "Montserrat", "bold";
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+
+/* Welcome section */
+
+#welcome-line {
+    font-family: 'Aboreto', cursive;
+    line-height: 1.5;
+}
+
+.button-text {
+    font-family: 'DynaPuff', cursive;
+    line-height: 1.5;
+}
+
+.nav-container {
+    margin-bottom: 3%;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.download-button {
+    margin: 3% 3% 3% 0;
+}
+
+.title-image {
+    width: 20%;
+    height: 80%;
+    right: 20%;
+    position: absolute;
+}
+
+.rotated {
+    transform: rotate(20deg);
+    /* Equal to rotateZ(45deg) */
+    background-color: pink;
+}
+
+
+/* Feature section */
+
+#features {
+    padding: 6% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.icon {
+    align-items: center;
+    color: #ef8172;
+    margin-bottom: 2%;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.feature-text-1 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.feature-text-2 {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #8f8f8f;
+}
+
+.feature-box {
+    height: 150px;
+    text-align: center;
+    padding: 1%;
+}
+
+
+/* Testimonial */
+
+#testimonials {
+    text-align: center;
+    background-color: pink;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 15%;
+}
+
+#press {
+    background-color: pink;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.press-logo {
+    width: 18%;
+    margin: 20px 20px 20px 20px;
+}
+
+#carousel-slide {
+    height: 100%;
+}
+
+.carousel-item {
+    height: 65%;
+    padding: 2% 15% 7%;
+}
+
+
+/* Pricing section */
+
+#pricing {
+    padding: 3% 10%;
+    text-align: center;
+}
+
+#card-row {
+    padding: 5% 5%;
+}
+
+.price-item {
+    padding: 2%;
+}
+
+
+/* Call to action & footer section */
+
+#footer {
+    background-color: white;
+    text-align: center;
+    padding: 5% 25% 3%;
+}
+
+.call-action {
+    background-color: pink;
+    text-align: center;
+    padding: 5% 10% 5%;
+}
+
+.call-action-text {
+    color: white;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.social-media-icon {
+    margin: 0px 7px 13px;
+}
+
+@media all and (max-width: 768px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        padding-top: 20%;
+        height: 80%;
+        width: 40%;
+        position: static;
+        transform: rotate(0);
+    }
+    .container-fluid {
+        background-color: pink;
+        padding: 0% 0% 5%;
+    }
+    .carousel-item {
+        height: 65%;
+        padding: 10% 15% 15%;
+    }
+}
